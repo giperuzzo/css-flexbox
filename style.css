@@ -2,17 +2,59 @@
     /*border-color: black;
     border-style: solid;
     border-width: 1px; */
-    border: black solid 1px ;
-    width: 100px;
-    height: 100px;
-    text-align: center;
+    border: black solid 1px ; /* cofiguração de borda da caixa filho*/
+    width: 100px; /*largura da caixa*/
+    height: 100px; /*altura da caixa*/
+    text-align: center; /*centralizar o testo dentro da caixa*/
+
 }   
+
+.parent-box div:nth-child(2).child-box  { 
+    
+    background-color: beige;
+    /*colocar cores em cada caixa filho*/
+}
+
+.parent-box div:nth-child(3).child-box { 
+
+    background-color: gray;
+}
+
+.parent-box div:nth-child(4).child-box { 
+
+    background-color: pink;
+}
+
+
+#display-flex .parent-box {
+
+    display: flex;
+    display:flex;
+    background-color: rgb(235, 220, 202);
+
+}
+#justify-content .parent-box {
+    justify-content: center;
+}
+
+
 
 .parent-box {
     display:flex;
+    background-color: rgb(235, 220, 202);
+   /* margin: 40px ; /* espaçamento da borda pra caixa lateral*/
 
+    padding: 40px 20px 20px 20px  /* espacamento interno entre caixa mestre e caixa filho*/
+    /*shortrand para o padding-top padding-right, padding-b0tton, padding-left */
+}
+
+.parent-box  > p {
+    position:absolute;
+    margin-top: -30px;
+    left: 25px;
+    
 }
 .property-explanation {
 
-    
+
 }
