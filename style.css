@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+.property-explanation {
+    font-family: 'ubuntu', sans-serif; 
+}
+
+
 .caixa-filho {
     /*border-color: black;
     border-style: solid;
@@ -10,18 +18,18 @@
 
 }   
 
-.caixa-pai div:nth-child(2).caixa-filho  { 
+.caixa-pai div:nth-child(2)  { 
     
     background-color: beige;
     /*colocar cores em cada caixa filho*/
 }
 
-.caixa-pai div:nth-child(3).caixa-filho { 
+.caixa-pai div:nth-child(3) { 
 
     background-color: gray;
 }
 
-.caixa-pai div:nth-child(4).caixa-filho { 
+.caixa-pai div:nth-child(4) { 
 
     background-color: pink;
 }
@@ -75,6 +83,33 @@
 }
 .property-explanation {
 
+    font-size: 16pt;
+
 
 }
+.page-title {
+    font-size: 25pt;
+    text-align: center;
+    text-decoration: underline;
+   
+
+}
+
+.property-title {
+    text-align: center;
+}
+
+.flex-box-imagem {
+    display: flex;
+    justify-content: center;
+  
+  
+
+
+}
+
+
+   
+
+
 
